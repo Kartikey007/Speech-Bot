@@ -32,8 +32,8 @@ namespace Speech.Recognition
         {
             var config =
                 SpeechConfig.FromSubscription(
-                    "YOUR-AZURE-SPEECH-KEY",
-                    "YOUR-AZURE-SPEECH-LOCATION");
+                    "9f237b68ebd7435482019aebe63271be",
+                    "eastus");
 
             string language = "";
             if (x == "1") { language = "en-US"; };
